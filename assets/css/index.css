@@ -34,9 +34,6 @@ section.active {
     z-index: -1;
     
     background-image: url("../img/serie.gif");
-    
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
 
     height: 100%;
 
@@ -81,4 +78,21 @@ section.active {
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
+}
+
+.message {
+    position: fixed;
+    text-align: center;
+    bottom: 1%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 20px;
+}
+
+a {
+    color: #f1f1f1;
+}
+
+i {
+    font-size: xx-large;
 }
