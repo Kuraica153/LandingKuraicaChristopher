@@ -1,2 +1,2 @@
 # LandingKuraicaChristopher
-Practica para el control de versiones
+Landing page practice
