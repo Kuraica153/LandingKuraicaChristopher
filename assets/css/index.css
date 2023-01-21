@@ -29,6 +29,22 @@ section.active {
     background-size: cover;
 }
 
+.bg-img-series {
+    position: absolute;
+    z-index: -1;
+    
+    background-image: url("../img/serie.gif");
+    
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .bg-text {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
@@ -65,4 +81,4 @@ section.active {
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
-  }
+}
