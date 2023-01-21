@@ -5,13 +5,13 @@ let currentSectionIndex = 0;
 document.addEventListener('wheel', e => {
   if (e.wheelDeltaY > 0 && currentSectionIndex - 1 >= 0) {
     // wheel up
-    sections[currentSectionIndex].className = '';
+    sections[currentSectionIndex].classList.toggle('active');
     currentSectionIndex--;
-    sections[currentSectionIndex].className = 'active d-flex justify-content-center align-items-center';
+    sections[currentSectionIndex].classList.toggle('active');
   } else if (e.wheelDeltaY < 0 && currentSectionIndex + 1 < sections.length) {
     // wheel down
-    sections[currentSectionIndex].className = '';
+    sections[currentSectionIndex].classList.toggle('active');
     currentSectionIndex++;
-    sections[currentSectionIndex].className = 'active d-flex justify-content-center align-items-center';
+    sections[currentSectionIndex].classList.toggle('active');
   }
 });
