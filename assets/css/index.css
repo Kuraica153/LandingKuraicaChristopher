@@ -1,0 +1,98 @@
+section {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:black;
+    visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+section.active {
+    visibility: visible;
+}
+
+.bg-img {
+    position: absolute;
+    
+    background-image: url("../img/captain.jpg");
+    
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-series {
+    position: absolute;
+    z-index: -1;
+    
+    background-image: url("../img/serie.gif");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.bg-dark {
+    background-color: rgba(0,0,0, 0.5)!important;
+}
+
+#tackle {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.message {
+    position: fixed;
+    text-align: center;
+    bottom: 1%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 20px;
+}
+
+a {
+    color: #f1f1f1;
+}
+
+i {
+    font-size: xx-large;
+}

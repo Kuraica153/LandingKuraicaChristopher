@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <section data-section="0" class="active d-flex justify-content-center align-items-center">
+        <div class="bg-img w-100 h-100"></div>
+        <div class="bg-text">
+            <h1>Christopher Kuraica</h1>
+            <h2>Desarrollador Full-Stack</h2>
+        </div>
+        <div class="message">
+            <h6>Desplaza hacia abajo</h6>
+            <i class="bi bi-chevron-double-down"></i>
+        </div>
+    </section>
+    <section data-section="1" class="d-flex flex-column">
+        <div class="bg-dark text-white d-flex justify-content-center">
+            <h1>Hobbies</h1>
+        </div>
+        <video autoplay muted loop id="tackle">
+            <source src="assets/vid/Tackle.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h1>Football Americano</h1>
+            <p>Adoro jugar football americano, aunque en realidad, me gusta realizar la mayoria de los deportes</p>
+        </div>
+    </section>
+    <section data-section="2" class="d-flex flex-column">
+        <div class="section-header bg-dark text-white d-flex justify-content-center">
+            <h1>Series/Peliculas favoritas</h1>
+        </div>
+        <div class="bg-img-series w-100 h-100"></div>
+        <div class="content">
+            <h1>Rick & Morty</h1>
+            <p>En general no suelo ver ni series, ni peliculas, sin embargo, vi Rick & Morty y me gusto bastante</p>
+        </div>
+    </section>
+    <section data-section="3" class="d-flex flex-column justify-content-center">
+        <div class="section-header bg-dark text-white d-flex justify-content-center">
+            <h1>Contacto</h1>
+        </div>
+        <div class="d-flex flex-column w-100 h-100 justify-content-center align-items-center">
+            <div class="w-50">
+                <input type="text" class="form-control mt-3" placeholder="Nombre">
+                <input type="text" class="form-control mt-3" placeholder="Correo">
+                <textarea name="message" id="message" cols="30" rows="10" class="form-control mt-3" placeholder="Mensaje"></textarea>
+                <button type="button" class="btn btn-primary w-100 mt-3">Enviar</button>    
+            </div>
+        </div>
+        <div class="content d-flex align-content-center justify-content-center">
+                <a class="me-3 ms-3" title="Instagram" href="https://www.instagram.com/kuraica15"><i class="bi bi-instagram"></i></a>
+                <a class="me-3 ms-3" title="Linkedin" href="https://www.linkedin.com/in/kuraica/"><i class="bi bi-linkedin"></i></a>
+        </div>        
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="assets/js/sections.js"></script>
+</body>
+</html>
